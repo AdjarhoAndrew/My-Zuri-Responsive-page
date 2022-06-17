@@ -1,0 +1,46 @@
+
+
+body { 
+  background-color: hsl(0, 100%, 74%); font-size: 16px;
+}
+h1.words{color: white;padding-left: 5%;}
+p{color: white; padding-left: 3%; font-size: 16px;}
+div{width: 100%; padding: 12px; position: absolute; top: 80px; }
+div.sloganinbox {
+  background-color: darkblue;
+   top: 8px;
+  padding: 1px;
+  width: 44%;
+  margin:10px;
+  text-align: center;
+  margin-left: 50%;
+  color: white;
+  border-radius: 10px; 
+}
+form {
+  background-color: white;
+  padding: 20px;
+  margin-left: 50%;
+  width: 40%;
+  border-radius: 10px;
+}
+input{ padding: 10px; width: 93%; border-radius: 10px;border: 2px solid red;}
+}
+input[type="text"] {
+  border: 2px solid red;
+  border-radius: 2px;
+  width: 50%;
+  border-radius: 10px
+}
+button{background-color: rgb(81, 202, 81); width: 97%; margin: 25px; margin-left: 0%; padding: 10px; border-radius: 10px;}
+p.terms{text-align: center; color: black; font-size: 16px;}
+@media screen and (max-width:1440px) {body{ width: 100%;}
+    
+}
+@media screen and (min-width:375px) {body{width:100%}
+    
+}
+input:required:invalid{outline: none; border: none;border: 1px solid hsl(0, 100%, 74%); background-image: (icon-error.svg);background-repeat:no-repeat; background-position:right; background-origin:content-box;}
+input:invalid+span{display:inline; color:hsl(0, 100%, 74%); float:right; font-size: 14px;}
+input:invalid{ outline: none; border: none; border:1px solid hsl(154, 59% 31%);}
+span{ display:none;}
